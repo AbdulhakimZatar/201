@@ -1,7 +1,9 @@
 "use strict";
+//Welcoming user
 var userName = prompt('Hi, what is your name?');
 alert('Hi '+userName+', are you ready for quick quiz about me? answer using yes or no');
 
+//asking user and make sure he/she answer with yes/no
 var a1 = prompt('Do i love coding?');
 if(a1.toLocaleLowerCase() == ("yes" || "y")){
     alert('Correct');
