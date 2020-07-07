@@ -1,5 +1,6 @@
 # 201 Class
 
+<<<<<<< HEAD
 
 * [Lab02 | v0.01](lab02)
 - Created homepage with html, css and javascript.
@@ -12,3 +13,6 @@
 - Added two more questions.
 - Added counter for correct answers.
 - Added counters for attempts for 6th and 7th questions.
+=======
+* [Lab02](lab02)
+>>>>>>> b045109b46ed4fea139dfdd7336636340f52d0dd
