@@ -1,13 +1,13 @@
 # 201 Class
 
 
-* [Lab02](lab02)
+### [Lab02](lab02)
 
 - Created homepage with html, css and javascript.
 - added five questions with ability to check if the answer is yes/no and accept answers even if letters are small or capital
 - added welcome message to user.
 
-* [Lab03](lab03)
+### [Lab03](lab03)
 
 - Added top ten games to homepage.
 - Changed the work experience and education into unorder list.
