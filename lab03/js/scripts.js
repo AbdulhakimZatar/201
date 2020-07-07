@@ -8,12 +8,12 @@ var correctAnswers = 0;
 var topGames = ['gta','arma','squad','fifa'];
 
 //asking user and make sure he/she answer with yes/no
-var a1 = prompt('Do i love coding?');
-if(a1.toLocaleLowerCase() == ("yes" || "y")){
+var a1 = prompt('Do i love coding?').toLocaleLowerCase();
+if((a1 == "yes") || (a1 == "y")){
     alert('Correct');
     console.log('First answer is correct');
     correctAnswers++;
-} else if(a1.toLocaleLowerCase() == ("no" || "n")) {
+} else if((a1 == "no") || (a1 == "n")) {
     alert('Wrong');
     console.log('First answer is wrong');
 } else {
@@ -22,11 +22,11 @@ if(a1.toLocaleLowerCase() == ("yes" || "y")){
 }
 
 var a2 = prompt('Am i a gamer?');
-if(a2.toLocaleLowerCase() == ("yes" || "y")){
+if((a2 == "yes") || (a2 == "y")){
     alert('Correct');
     console.log('Second  answer is correct');
     correctAnswers++;
-} else if(a2.toLocaleLowerCase() == ("no" || "n")) {
+} else if((a2 == "no") || (a2 == "n")) {
     alert('Wrong');
     console.log('Second answer is wrong');
 } else {
@@ -35,11 +35,11 @@ if(a2.toLocaleLowerCase() == ("yes" || "y")){
 }
 
 var a3 = prompt('Is travel my favorite hobby?');
-if(a3.toLocaleLowerCase() == ("yes" || "y")){
+if((a3 == "yes") || (a3 == "y")){
     alert('Correct');
     console.log('Third answer is correct');
     correctAnswers++;
-} else if(a3.toLocaleLowerCase() == ("no" || "n")) {
+} else if((a3 == "no") || (a3 == "n")) {
     alert('Wrong');
     console.log('Third answer is wrong');
 } else {
@@ -48,10 +48,10 @@ if(a3.toLocaleLowerCase() == ("yes" || "y")){
 }
 
 var a4 = prompt("I don't like food, is this right?");
-if(a4.toLocaleLowerCase() == ("yes" || "y")){
+if((a4 == "yes") || (a4 == "y")){
     alert('Wrong');
     console.log('fourth answer is wrong');
-} else if(a4.toLocaleLowerCase() == ("no" || "n")) {
+} else if((a4 == "no") || (a4 == "n")) {
     alert('Correct');
     console.log('Fourth answer is correct');
     correctAnswers++;
@@ -61,10 +61,10 @@ if(a4.toLocaleLowerCase() == ("yes" || "y")){
 }
 
 var a5 = prompt("Last country i visited was France, is that right?");
-if(a5.toLocaleLowerCase() == ("yes" || "y")){
+if((a5 == "yes") || (a5 == "y")){
     alert('Wrong');
     console.log('Fifth answer is wrong');
-} else if(a5.toLocaleLowerCase() == ("no" || "n")) {
+} else if((a5 == "no") || (a5 == "n")) {
     alert('Correct');
     console.log('Fifth answer is correct');
     correctAnswers++;
@@ -94,7 +94,7 @@ for(var q6_Attempts = 1; q6_Attempts <= 4; q6_Attempts++)
 
 for(var q7_Attempts = 1; q7_Attempts <= 6; q7_Attempts++)
 {
-    var a7 = prompt("Name one of the top four games i love!");
+    var a7 = prompt("Name one of the top four games i love!").toLowerCase;
     var i = 0; // counter to check all array topGames data.
 
     for(i; i <= topGames.length; i++){
