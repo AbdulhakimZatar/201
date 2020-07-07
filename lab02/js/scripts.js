@@ -16,7 +16,7 @@ if((a1 == "yes") || (a1 == "y")){
     console.log('Wrong value');
 }
 
-var a2 = prompt('Am i a gamer?');
+var a2 = prompt('Am i a gamer?').toLocaleLowerCase();
 if((a2 == "yes") || (a2 == "y")){
     alert('Correct');
     console.log('Second  answer is correct');
@@ -28,7 +28,7 @@ if((a2 == "yes") || (a2 == "y")){
     console.log('Wrong value');
 }
 
-var a3 = prompt('Is travel my favorite hobby?');
+var a3 = prompt('Is travel my favorite hobby?').toLocaleLowerCase();
 if((a3 == "yes") || (a3 == "y")){
     alert('Correct');
     console.log('Third answer is correct');
@@ -40,7 +40,7 @@ if((a3 == "yes") || (a3 == "y")){
     console.log('Wrong value');
 }
 
-var a4 = prompt("I don't like food, is this right?");
+var a4 = prompt("I don't like food, is this right?").toLocaleLowerCase();
 if((a4 == "yes") || (a4 == "y")){
     alert('Wrong');
     console.log('fourth answer is wrong');
@@ -52,7 +52,7 @@ if((a4 == "yes") || (a4 == "y")){
     console.log('Wrong value');
 }
 
-var a5 = prompt("Last country i visited was France, is that right?");
+var a5 = prompt("Last country i visited was France, is that right?").toLocaleLowerCase();
 if((a5 == "yes") || (a5 == "y")){
     alert('Wrong');
     console.log('Fifth answer is wrong');
