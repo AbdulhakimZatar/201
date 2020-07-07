@@ -85,6 +85,18 @@ for(var q6_Attempts = 1; q6_Attempts <= 4; q6_Attempts++)
         correctAnswers++;
         break;
     }else {
+        if(a6<=5)
+        {
+            alert('Too low from correct answer');
+        }else if(a6>8)
+        {
+            alert('Too close from correct answer');
+        } else if(a6<8){
+            alert('Too close from correct answer');
+        } else {
+            alert('Too high from correct answer');
+        }
+        
         alert('Try again this is your '+q6_Attempts+'/4 attempt.');
         if(q6_Attempts == '4'){
             alert('You used all your opportunities, the correct answer is 8.');
