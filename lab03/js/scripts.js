@@ -94,15 +94,16 @@ for(var q6_Attempts = 1; q6_Attempts <= 4; q6_Attempts++)
 
 for(var q7_Attempts = 1; q7_Attempts <= 6; q7_Attempts++)
 {
-    var a7 = prompt("Name one of the top four games i love!").toLowerCase;
+    var a7 = prompt("Name one of the top four games i love!").toLocaleLowerCase();
     var i = 0; // counter to check all array topGames data.
 
     for(i; i <= topGames.length; i++){
     if(a7 == topGames[i]){
         break;
-    }}
+    }
+}
 
-    if(a7 == topGames[i]){
+    if(a7 === topGames[i]){
         alert('Correct, you got one of the correct answers, these the top 4 games i love Arma, GTA, Squad and Fifa.');
         console.log('Seventh answer is correct');
         correctAnswers++;
