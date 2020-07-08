@@ -1,10 +1,16 @@
 "use strict";
-//Welcoming user
-var userName = prompt('Hi, what is your name?');
-alert('Hi '+userName+', are you ready for quick quiz about me? answer using yes or no');
 
+var userName = "";
 //counter for correct answers + Array for top four games i love.
 var correctAnswers = 0;
+
+function welcome() {
+//Welcoming user
+userName = prompt('Hi, what is your name?');
+alert('Hi '+userName+', are you ready for quick quiz about me? answer using yes or no');
+ }
+
+function questions(){
 
 //asking user and make sure he/she answer with yes/no
 var a1 = prompt('Do i love coding?').toLocaleLowerCase();
@@ -127,8 +133,12 @@ for(var q7_Attempts = 1; q7_Attempts <= 6; q7_Attempts++)
         }
     }
 }
+}
 
+function bye(){
+    alert('Thanks '+userName+' for your answers, you got '+correctAnswers+'/7, come back later for more quizes');
+}
 
-alert('Thanks '+userName+' for your answers, you got '+correctAnswers+'/7, come back later for more quizes');
-
-
+welcome();
+questions();
+bye();
