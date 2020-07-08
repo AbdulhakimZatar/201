@@ -5,7 +5,6 @@ alert('Hi '+userName+', are you ready for quick quiz about me? answer using yes 
 
 //counter for correct answers + Array for top four games i love.
 var correctAnswers = 0;
-var topGames = ['gta','arma','squad','fifa'];
 
 //asking user and make sure he/she answer with yes/no
 var a1 = prompt('Do i love coding?').toLocaleLowerCase();
@@ -96,6 +95,7 @@ for(var q7_Attempts = 1; q7_Attempts <= 6; q7_Attempts++)
 {
     var a7 = prompt("Name one of the top four games i love!").toLocaleLowerCase();
     var i = 0; // counter to check all array topGames data.
+    var topGames = ['gta','arma','squad','fifa'];
 
     for(i; i <= topGames.length; i++){
     if(a7 == topGames[i]){
