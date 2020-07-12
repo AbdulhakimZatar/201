@@ -18,4 +18,9 @@ __Driver__ :- Hamza Sami.
 - Added counter for correct answers.
 - Added counters for attempts for 6th and 7th questions.
 
+### [Lab05](lab04)
+
+- Added more css.
+- Removed console.log.
+
 
